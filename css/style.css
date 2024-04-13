@@ -1,0 +1,231 @@
+body{
+    font-family: 'Mulish';
+    color: #22253B;
+}
+.container{
+    padding: 15px 10%;
+    height: 70vh;
+    max-width: 100%;
+    background-color: #EAF2F5;
+    z-index: 0;
+    overflow: hidden;
+}
+.navbar{
+    border-radius: 75px;
+    font-size: 14px;
+}
+.navbar-collapse{
+    margin-left: 5%;
+}
+.navbar-nav{
+    gap: 35px;
+}
+.nav-link{
+    color: #22253B;
+}
+.nav-link:hover{
+    color: #F15525;
+}
+.m-left{
+    margin-left: 34rem;
+}
+.btn-navbar{
+    background-color: #38BFF2;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.btn-navbar:hover{
+    background-color: #F15525;
+    color: #FFFFFF;
+}
+
+.header-text{
+    margin-top: 50px;
+    width: 65%;
+}
+
+.btn-header-text{
+    padding: 15px;
+    background-color: #F15525;
+    color: #FFFFFF;
+}
+.btn-header-text:hover{
+    background-color: #38BFF2;
+    color: #FFFFFF;
+}
+.img-position{
+    top: 26%;
+    right: 9.9%;
+}
+.circle-position{
+    width: 75%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.back-img{
+    background-color: #ffffff;
+}
+.tech{
+    border-radius: 48px;
+    background: rgb(234, 242, 245);
+    width: 62%;
+}
+.positing-img{
+    padding-top: 42px;
+    padding-left: 122.92px;
+    padding-right: 59px;
+}
+.program-leng{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 78px;
+    padding-right: 104.17px;
+    gap: 10px;
+}
+.python{
+    width: 311px;
+    height: 45.13px;
+    border-radius: 44px;
+    background-color: rgb(80, 150, 255);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 11.88px 16.31px;
+    margin: 0;
+}
+.set{
+    width: 89px;
+    height: 45.13px;
+    border-radius: 44px;
+    background: rgb(255, 179, 89);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 9.88px 6.54px 10.69px 6.54px;
+    text-align: center;
+    margin: 0;
+}
+.data-base{
+    background-color: #ff6f50;
+    color: #FFFFFF;
+    border-radius: 44px;
+    width: 151.17px;
+    height: 45.13px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+.Django-and-flask{
+    background-color: rgb(75, 208, 113);
+    color: #FFFFFF;
+    border-radius: 44px;
+    width: 277.48px;
+    height: 45.13px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+.testing{
+    background-color: rgb(80, 192, 255);
+    color: #FFFFFF;
+    border-radius: 44px;
+    width: 258px;
+    height: 45px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+.docker{
+    background-color: rgb(75, 119, 185);
+    color: #FFFFFF;
+    border-radius: 44px;
+    width: 95px;
+    height: 45px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+.git{
+    background-color: rgb(175, 147, 255);
+    color: #FFFFFF;
+    border-radius: 44px;
+    width: 93.83px;
+    height: 45.13px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+.back-end-dev{
+    color: rgb(34, 37, 59);
+    font-size: 20px;
+    width: 386px;
+}
+.practik{
+    margin: 1% 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+}
+.card{
+    width: 270px;
+    height: 254px;
+    background-color: rgb(234, 242, 245);
+    border-radius: 30px;
+}
+.card-img-top{
+    width: 57.4px;
+    height: 57.4px;
+    margin: 50px 106px 0;
+}
+.card-title{
+    padding-left: 15%;
+    width: 210px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 13px;
+    width: 220px;
+    text-align: center;
+    padding-left: 5%;
+}
+.card-text-1{
+    font-size: 13px;
+    width: 190px;
+    text-align: center;
+    padding-left: 23%;
+}
+.card-text-2{
+    font-size: 13px;
+    width: 180px;
+    text-align: center;
+    padding-left: 25%;
+}
+.card-title-1{
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-text-3{
+    font-size: 13px;
+    width: 190px;
+    text-align: center;
+    padding-left: 23%;
+}
+.card-text-4{
+    font-size: 13px;
+    width: 200px;
+    text-align: center;
+    padding-left: 9.6%;
+}
+.back-circle{
+    width: 100%;
+    top: -80%;
+}
