@@ -1,6 +1,7 @@
 body{
     font-family: 'Mulish';
     color: #22253B;
+    background: #f9f8fd;
 
 }
 .container{
@@ -254,7 +255,7 @@ body{
     top: -73.5%;
 }
 .learning-ytyt-header-text{
-    margin-top: 12.6%;
+    margin-top: 2.6%;
     font-size: 46px;
     font-weight: 600;
 }
@@ -266,13 +267,13 @@ body{
     z-index: -2;
 }
 .watching-video-position{
-    top: 54.7%;
+    top: 50.7%;
 }
 .watching-video-text{
-    top: 71.2%;
+    top: 69.2%;
 }
 .plan-obucheniya{
-    margin-top: 2%;
+    margin: 2% 17% 0;
     background-color: #ffffff;
     border-radius: 40px;
     box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
@@ -316,7 +317,7 @@ body{
     width: 292px;
 }
 .start-learn{
-    margin-top: 2%;
+    margin: 2% 35% 0;
     background-color: #ffffff;
     border-radius: 110px;
     width: 538px;
@@ -334,4 +335,53 @@ body{
     width: 224px;
     font-size: 15px;
     font-weight: 600;
+}
+.help{
+    background-color: #ffffff;
+    border-radius: 80px;
+    padding: 91px 17% 89px;
+}
+.help-body{
+    gap: 30px;
+}
+.img-help{
+    border-radius: 40px;
+    background: rgb(234, 242, 245);
+    padding: 41px 65px;
+}
+.help-text{
+    border-radius: 40px;
+    background: rgb(234, 242, 245);
+    padding: 54px 81px 0 100px;
+}
+.help-text-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.help-text-body-1{
+    width: 435px;
+}
+.help-text-body-2{
+    width: 550px;
+}
+.help-text-body-3{
+    width: 520px;
+}
+.stoimost-text{
+    width: 310px;
+}
+.stoimost-text-2{
+    width: 160px;
+}
+.table{
+    width: 67%;
+    padding: 0 5% !important;
+    border-color: #FFFFFF;
+    border-radius: 10px !important;
+}
+.thead{
+    padding-top: 36px !important;
+    color: rgb(56, 191, 242) !important; 
+    font-size: 16px !important;
+    font-weight: 700 !important;
 }
