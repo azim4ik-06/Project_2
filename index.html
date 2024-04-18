@@ -41,7 +41,7 @@
       <div class="row">
         <div class="col col-lg-7 col-md-12 col-sm-12">
             <h1 class="header-text">
-                Школа <span style="color: #f15525;">{</span><strong style="font-style: italic;">программирования</strong><span style="color: #f15525;">}</span>для тех, кому нужны реальные навыки,
+                Школа <span style="color: #f15525;">{</span><strong style="font-style: italic;">программирования</strong><span style="color: #f15525;">}</span>для тех, кому нужны реальные навыки, <br>
                 а не просто сертификат
             </h1>
         
@@ -129,7 +129,7 @@
               <img src="img/Wallet.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Оплата небольшими частями</h5>
-                <p class="card-text">Платите только за тот материал, который сейчас изучаете, 
+                <p class="card-text">Платите только за тот материал, который сейчас изучаете, <br>
                   а не за весь курс сразу</p>
               </div>
             </div>
@@ -221,9 +221,9 @@
         </div>
       </div>
     </div>
-    <div class="stoimost d-flex flex-column justify-content-center align-items-center mt-5">
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5">
       <h1>Стоимость обучения</h1>
-      <div class="row gap-4 mt-4">
+      <div class="row stoimost mt-4">
         <div class="col d-flex justify-content-center align-items-center gap-4">
           <img src="img/svg-gobbler 2.svg" alt="">
           <p class="stoimost-text">Весь курс разбит на несколько блоков. 
@@ -244,59 +244,122 @@
             Возвращаем деньги за 3 рабочих дня.</p>
         </div>
       </div>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col" class="thead">Блок</th>
-            <th scope="col" class="thead">Стоимость (₽)</th>
-            <th scope="col" class="thead">Расчетное время обучения (мес.) *</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Введение в программирование</td>
-            <td>Бесплатно</td>
-            <td>0.5</td>
-          </tr>
-          <tr>
-            <td>Основы программирования на Python</td>
-            <td>9 900</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Python, продвинутый уровень</td>
-            <td>14 900</td>
-            <td>2.5</td>
-          </tr>
-          <tr>
-            <td>Сети + фреймворк Flask</td>
-            <td>14 900</td>
-            <td>2.5</td>
-          </tr>
-          <tr>
-            <td>Базы данных</td>
-            <td>14 900</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Фреймворк Django</td>
-            <td>14 900</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Разработка «боевого» проекта</td>
-            <td>9 900</td>
-            <td>1.5</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <th scope="col">Итого</th>
-            <th scope="col">79 400</th>
-            <th scope="col">12</th>
-          </tr>
-        </tfoot>
-      </table>
+      <div class="table-sum mt-4">
+        <table class="table table-striped table-borderless">
+          <thead>
+            <tr>
+              <th scope="col" class="thead">Блок</th>
+              <th scope="col" class="thead">Стоимость (₽)</th>
+              <th scope="col" class="thead">Расчетное время обучения (мес.) *</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tbody border-radius-left">Введение в программирование</td>
+              <td class="tbody">Бесплатно</td>
+              <td class="tbody border-radius-right">0.5</td>
+            </tr>
+            <tr>
+              <td class="tbody">Основы программирования на Python</td>
+              <td class="tbody">9 900</td>
+              <td class="tbody">1</td>
+            </tr>
+            <tr>
+              <td class="tbody border-radius-left">Python, продвинутый уровень</td>
+              <td class="tbody">14 900</td>
+              <td class="tbody border-radius-right">2.5</td>
+            </tr>
+            <tr>
+              <td class="tbody">Сети + фреймворк Flask</td>
+              <td class="tbody">14 900</td>
+              <td class="tbody">2.5</td>
+            </tr>
+            <tr>
+              <td class="tbody border-radius-left">Базы данных</td>
+              <td class="tbody">14 900</td>
+              <td class="tbody border-radius-right">2</td>
+            </tr>
+            <tr>
+              <td class="tbody">Фреймворк Django</td>
+              <td class="tbody">14 900</td>
+              <td class="tbody">2</td>
+            </tr>
+            <tr>
+              <td class="tbody border-radius-left">Разработка «боевого» проекта</td>
+              <td class="tbody">9 900</td>
+              <td class="tbody border-radius-right">1.5</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="col" class="tfoot">Итого</th>
+              <th scope="col" class="tfoot">79 400</th>
+              <th scope="col" class="tfoot">12</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+    <p class="push">* если занятиям уделяется около 20 часов в неделю</p>
+    <div class="d-flex notification">
+      <div class="img-notific">
+        <img src="img/svg-gobbler (1) 2.svg" alt="">
+      </div>
+
+      <div class="text-notification">
+        <p class="text-notific">
+          Все блоки проходятся строго по порядку. Пропустить какой-то блок или 
+          начать обучение с середины нельзя, даже если вы считаете, что уже 
+          знаете какую-то часть материала. Только так мы можем гарантировать, 
+          что вы получите все знания, предусмотренные учебной программой.
+        </p>
+      </div>
+
+      <div class="btn-notific">
+        <button class="btn btn-header-text rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col col-lg-7 col-md-12 col-sm-12">
+        <div class="logo">
+          <p class="d-flex align-items-center text-secondary w-25"><img src="img/Logo.svg" class="me-3" alt="">Школа программирования</p>
+          <div class="social-media mt-5">
+            <a href=""><img src="img/instagram.svg" class="pe-3" alt=""></a>
+            <a href=""><img src="img/VK.svg" class="pe-3" alt=""></a>
+            <a href=""><img src="img/Facebook.svg" class="pe-3" alt=""></a>
+            <a href=""><img src="img/YouTube.svg" class="pe-3" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <ul>
+          <li><a href="">Чему вы научитесь</a></li>
+          <li><a href="">Процесс обучения</a></li>
+          <li><a href="">Стоимость</a></li>
+          <li><a href="">Контакты</a></li>
+          <li><a href="">Регистрация</a></li>
+        </ul>
+      </div>
+      <div class="col col-lg-2 col-md-12 col-sm-12">
+        <p style="color: #38BFF2;">+7 (499) 348 93 96</p>
+        <p>info@ytyt.ru</p>
+        <p class="mt-5 footer-text" style="color: #8E8E8E;">
+          ИП Умаров Т. А. <br>
+          ИНН 745216229809 
+          ОГРНИП 315745200001358</p>
+      </div>    
+      <hr>
+    </div>
+    <div class="row foot-link" style="color: #8E8E8E;">
+      <div class="col col-lg-6 col-md-12 col-sm-12">
+        <p>© 2022 ytyt — Все права защищены</p>
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <a href="" class="footer-link"><p>Пользовательское соглашение</p></a>
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <a href="" class="footer-link"><p>Политика конфиденциальности</p></a>
+      </div>
     </div>
 </body>
 </html>

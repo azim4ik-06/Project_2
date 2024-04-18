@@ -332,7 +332,7 @@ body{
 }
 .text-learn{
     padding: 15px 0 0 19px;
-    width: 224px;
+    width: 234px;
     font-size: 15px;
     font-weight: 600;
 }
@@ -353,6 +353,7 @@ body{
     border-radius: 40px;
     background: rgb(234, 242, 245);
     padding: 54px 81px 0 100px;
+    width: 730px;
 }
 .help-text-title{
     font-size: 32px;
@@ -362,7 +363,7 @@ body{
     width: 435px;
 }
 .help-text-body-2{
-    width: 550px;
+    width: 570px;
 }
 .help-text-body-3{
     width: 520px;
@@ -373,15 +374,87 @@ body{
 .stoimost-text-2{
     width: 160px;
 }
+.table-sum{
+    background-color: #FFFFFF;
+    width: 60%;
+    border-radius: 30px !important;
+    padding: 0 40px 0 40px;
+}
 .table{
-    width: 67%;
-    padding: 0 5% !important;
-    border-color: #FFFFFF;
-    border-radius: 10px !important;
+    width: 99%;
 }
 .thead{
     padding-top: 36px !important;
+    padding-left: 19px !important;
+    padding-bottom: 15px !important;
     color: rgb(56, 191, 242) !important; 
-    font-size: 16px !important;
-    font-weight: 700 !important;
+}
+.tbody{
+    padding: 17px 0 15px 19px !important;
+}
+.border-radius-left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.border-radius-right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tfoot{
+    padding: 20px 0 0 19px !important;
+    font-size: 24px;
+}
+.push{
+    margin-left: 23.1%;
+    margin-top: 25px;
+    color: rgb(142, 142, 142);
+}
+.notification{
+    border-radius: 30px;
+    background: rgb(234, 242, 245);
+    width: 60%;
+    margin-left: 20%;
+    align-items: center;
+    gap: 25px;
+}
+.img-notific{
+    padding-left: 5.3%;
+}
+.text-notific{
+    width: 600px;
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 22px;
+}
+.footer{
+    margin: 3% 18% 1%;
+}
+ul{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+li{
+    padding: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 37, 59);
+}
+a:hover{
+    color: #F15525;
+}
+hr{
+    width: 60%;
+}
+.foot-link{
+    margin: 1% 18%;
+}
+.footer-link{
+    
+    color: #8E8E8E;
+}
+.footer-link:hover{
+    color: #F15525;
 }
