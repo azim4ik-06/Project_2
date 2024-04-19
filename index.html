@@ -11,51 +11,50 @@
 <body>
     <div class="container position-relative">
       <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-              <a class="navbar-brand ms-3" href="#"><img src="img/navbar_logo.svg" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Чему вы научитесь</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Процесс обучения</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Стоимость</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">Контакты</a>
-                    </li>
-                    <li class="nav-item m-left">
-                      <a class="nav-link " href="#">Регистрация</a>
-                    </li>
-                  </ul>
-              </div>
-              <button class="btn btn-navbar rounded-5 d-flex justify-content-center align-items-center" type="button"><img src="img/arrow_right.svg" class="me-1" alt="">Войти</button>
-          </div>
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="#"><img src="img/navbar_logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Чему вы научитесь</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Процесс обучения</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Стоимость</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Контакты</a>
+                  </li>
+                  <li class="nav-item m-left">
+                    <a class="nav-link " href="#">Регистрация</a>
+                  </li>
+                </ul>
+            </div>
+            <button class="btn btn-navbar rounded-5 d-flex justify-content-center align-items-center" type="button"><img src="img/arrow_right.svg" class="me-1" alt="">Войти</button>
+        </div>
       </nav>
       <div class="row">
-        <div class="col col-lg-7 col-md-12 col-sm-12">
+        <div class="col col-lg-7 col-md-12 col-sm-12 col-pad">
             <h1 class="header-text">
-                Школа <span style="color: #f15525;">{</span><strong style="font-style: italic;">программирования</strong><span style="color: #f15525;">}</span>для тех, кому нужны реальные навыки, <br>
+                Школа <span style="color: #f15525;">{</span><strong style="font-style: italic;">программирования</strong><span style="color: #f15525;">}</span>для тех, кому нужны реальные навыки, <br class=" d-lg-block d-sm-none">
                 а не просто сертификат
             </h1>
         
-            <hr class="w-50">
+            <hr class="hr-header">
         
-            <p class="w-50">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
+            <p class="text-header">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
         
             <button class="btn btn-header-text rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
         </div>
-        <div class="col col-lg-5 col-md-12 col-sm-12 col-width">
-            <img src="img/Layer 2.png" class="mt-5 position-absolute img-position" alt="">
-            <img src="img/cicle_back_img.svg" class="circle-position position-absolute" alt="">
+        <div class="col col-lg-5 col-md-12 col-sm-12 col-width position-relative">
+          <img src="img/Layer 2.png" class="mt-5 position-absolute img-position" alt="">
+          <img src="img/cicle_back_img.svg" class="circle-position position-absolute" alt="">
         </div>      
-
       </div>
     </div>
 
@@ -84,7 +83,7 @@
   
           </div>
         </div>
-        <h1 class="mt-5 w-25 justify-content-center">Обучение в YtYt – это удобно и результативно</h1>
+        <h1 class="mt-5 learning-ytyt justify-content-center">Обучение в YtYt – это удобно и результативно</h1>
         <div class="info">
           <div class="practik">
             <div class="card border-0">
@@ -147,12 +146,16 @@
     </div>
     <div class="learning d-flex flex-column justify-content-center align-items-center position-relative z-1">
       <h1 class="learning-ytyt-header-text">Как происходит обучение на YtYt?</h1>
-      <p class="learning-ytyt-text">
+      <p class="learning-ytyt-text d-none d-lg-block">
         Обучение должно быть комфортным. Поэтому мы разработали собственную 
         платформу для обучения программированию. На ней вы можете не только изучать 
         теорию, но и запускать готовые примеры и даже писать свой собственный код.
       </p>
-      <img src="img/Macbook.svg" class="position-relative mt-4" alt="">
+      <p class="learning-ytyt-text d-block d-sm-none">
+        Обучение должно быть комфортным. Поэтому мы разработали собственную платформу, на которой вы сможете не только изучать теорию, но и запускать готовые примеры и даже писать свой собственный код.
+
+      </p>
+      <img src="img/Macbook.svg" class="position-relative mt-4 macbook" alt="">
       <img src="img/blur-macbook.svg" class="position-absolute macbook-blur" alt="">
       <img src="img/Watching-video.svg" class="position-absolute watching-video-position" alt="">
       <p class="position-absolute text-white watching-video-text">Посмотреть видео</p>
@@ -161,29 +164,62 @@
       <div class="flex-columb info-obucheniya">
         <h1 class="num-color">01</h1>
         <h5 class="title-info">Весь материал разбит на небольшие уроки</h5>
-        <p class="text-info-obucheniya">Теория и практика подаются маленькими порциями. Так вам будет легче усваивать новые знания.</p>
+        <p class="text-info-obucheniya d-none d-lg-block">
+          Теория и практика подаются 
+          маленькими порциями. Так 
+          вам будет легче усваивать 
+          новые знания.
+        </p>
+        <p class="text-info-obucheniya d-block d-sm-none">
+          В каждом уроке вы будете не только 
+          узнавать что-то новое, но и выполнять 
+          интересные практические задания. 
+        </p>
       </div>
-      <div class="d-flex" style="height: 200px;">
+      <div class="d-flex vr-header">
         <div class="vr"></div>
       </div>
+      <hr class="d-block d-sm-none hr-obucheniya">
       <div class="flex-columb info-obucheniya">
         <h1 class="num-color">02</h1>
-        <h5 class="title-info-1">Обучение 
+        <h5 class="title-info-1 d-none d-lg-block">Обучение 
           через практику</h5>
-        <p class="text-info-obucheniya-2">Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.</p>
+        <h5 class="title-info-1 d-block d-sm-none">500 самых разных программ</h5>
+        <p class="text-info-obucheniya-2 d-none d-lg-block">
+          Всё, что вы узнали, вы тут же 
+          начинаете применять на практике. 
+          Вы сразу видите результаты 
+          своего труда.</p>
+          <p class="text-info-obucheniya-2 d-block d-sm-none">
+            От простого калькулятора ипотеки 
+            до мощного веб-приложения, 
+            размещенного на сервере и
+            доступного из любой точки мира
+          </p>
       </div>
-      <div class="d-flex" style="height: 200px;">
+      <div class="d-flex vr-header">
         <div class="vr"></div>
       </div>
+      <hr class="d-block d-sm-none hr-obucheniya">
       <div class="flex-columb info-obucheniya">
         <h1 class="num-color">03</h1>
-        <h5 class="title-info-2">Нет ограничений по времени</h5>
-        <p class="text-info-obucheniya-3">Можно совмещать учёбу с работой 
-          и другими делами. Не нужно выпрашивать академический отпуск, если пришлось сделать перерыв.</p>
+        <h5 class="title-info-2 d-none d-lg-block">Нет ограничений по времени</h5>
+        <h5 class="title-info-2 d-block d-sm-none">Учитесь в <br> комфортном темпе</h5>
+        <p class="text-info-obucheniya-3 d-none d-lg-block">
+          Можно совмещать учёбу с работой 
+          и другими делами. Не нужно 
+          выпрашивать академический отпуск, 
+          если пришлось сделать перерыв.</p>
+          <p class="text-info-obucheniya-3 d-block d-sm-none">
+            От 30 минут до нескольких часов <br>
+            в день. Изучать теорию можно даже
+            с мобильного телефона. Например, 
+            пока вы едете на работу.
+          </p>
       </div>
     </div>
     <div class="d-flex start-learn">
-      <button class="btn btn-header-text learn-btn rounded-5 d-flex justify-content-center align-items-center" type="button">Начать обучение<img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
+      <button class="btn btn-header-text btn-header-text-2 learn-btn rounded-5 d-flex justify-content-center align-items-center" type="button">Начать обучение<img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
       <p class="text-learn">Попробуйте, первые уроки бесплатны, но нужно пройти тестирование</p>
     </div>
 
@@ -193,7 +229,7 @@
           <img src="img/Group 1231.png" width="270" height="230" alt="">
         </div>
         <div class="help-text">
-          <h3 class="help-text-title">Помощь и поддержка</h3>
+          <h3 class="help-text-title">Помощь <br class="d-block d-sm-none"> и поддержка</h3>
           <p class="help-text-body-1">
             Если в процессе обучения возникнут сложности, вы
             всегда сможете задать вопрос своему наставнику.
@@ -210,7 +246,7 @@
           <h3 class="help-text-title">Методика обучения</h3>
           <p class="help-text-body-3">
             Весь учебный материал структурирован по принципу 
-            «спирального обучения». Сначала вы получаете базовые знания, 
+            «спирального обучения». Сначала вы получаете базовые знания, <br class="d-block d-sm-none">
             а затем на каждом витке спирали углубляетесь в изученные темы, 
             доводя их понимание до совершенства. Такой подход упрощает 
             обучение и гарантирует, что вы не пропустите ничего важного.
@@ -222,22 +258,22 @@
       </div>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center mt-5">
-      <h1>Стоимость обучения</h1>
-      <div class="row stoimost mt-4">
-        <div class="col d-flex justify-content-center align-items-center gap-4">
+      <h1 class="cost-educ">Стоимость обучения</h1>
+      <div class="row mt-4">
+        <div class="col d-flex stoimost justify-content-center align-items-center gap-4">
           <img src="img/svg-gobbler 2.svg" alt="">
           <p class="stoimost-text">Весь курс разбит на несколько блоков. 
             Оплата поэтапная вы платите только 
             за тот блок, который сейчас проходите.
           </p>
         </div>
-        <div class="col d-flex justify-content-center align-items-center gap-4">
+        <div class="col d-flex stoimost justify-content-center align-items-center gap-4">
           <img src="img/Wallet.svg" width="60" height="60" alt="">
           <p class="stoimost-text-2">Любой из блоков вы 
             можете оплатить в 
             рассрочку</p>
         </div>
-        <div class="col d-flex justify-content-center align-items-center gap-4">
+        <div class="col d-flex stoimost justify-content-center align-items-center gap-4">
           <img src="img/gobbler (6) 1.svg" width="60" height="60" alt="">
           <p class="stoimost-text">Если передумаете учиться, то возврат 
             можно оформить в любой момент. 
@@ -316,7 +352,7 @@
       </div>
 
       <div class="btn-notific">
-        <button class="btn btn-header-text rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
+        <button class="btn btn-header-text btn-notification rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
       </div>
     </div>
     <div class="row footer">
@@ -331,7 +367,7 @@
           </div>
         </div>
       </div>
-      <div class="col col-lg-3 col-md-12 col-sm-12">
+      <div class="col col-lg-3 col-md-12 col-sm-12 text-align">
         <ul>
           <li><a href="">Чему вы научитесь</a></li>
           <li><a href="">Процесс обучения</a></li>
@@ -340,7 +376,7 @@
           <li><a href="">Регистрация</a></li>
         </ul>
       </div>
-      <div class="col col-lg-2 col-md-12 col-sm-12">
+      <div class="col col-lg-2 col-md-12 col-sm-12 text-align">
         <p style="color: #38BFF2;">+7 (499) 348 93 96</p>
         <p>info@ytyt.ru</p>
         <p class="mt-5 footer-text" style="color: #8E8E8E;">
@@ -348,16 +384,16 @@
           ИНН 745216229809 
           ОГРНИП 315745200001358</p>
       </div>    
-      <hr>
     </div>
+    <hr class="hr-footer">
     <div class="row foot-link" style="color: #8E8E8E;">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
+      <div class="col col-lg-6 col-md-12 col-sm-12 text-footer">
         <p>© 2022 ytyt — Все права защищены</p>
       </div>
-      <div class="col col-lg-3 col-md-12 col-sm-12">
+      <div class="col col-lg-3 col-md-12 col-sm-12 text-footer">
         <a href="" class="footer-link"><p>Пользовательское соглашение</p></a>
       </div>
-      <div class="col col-lg-3 col-md-12 col-sm-12">
+      <div class="col col-lg-3 col-md-12 col-sm-12 text-footer">
         <a href="" class="footer-link"><p>Политика конфиденциальности</p></a>
       </div>
     </div>

@@ -260,6 +260,7 @@ body{
     font-weight: 600;
 }
 .learning-ytyt-text{
+    text-align: center;
     width: 652px;
 }
 .macbook-blur{
@@ -282,6 +283,9 @@ body{
 }
 .info-obucheniya{
     padding: 0 5%;
+}
+.vr-header{
+    height: 200px;
 }
 .vr{
     height: 270px;
@@ -457,4 +461,310 @@ hr{
 }
 .footer-link:hover{
     color: #F15525;
+}
+
+@media (max-width: 550px){
+    .container{
+        padding: 7px 15px;
+    }
+    .navbar{
+        max-width: 100%;
+    }
+    .navbar-brand{
+        order: -2;
+    }
+    .btn-navbar{
+        order: -1;
+    }
+    .header-text{
+        font-size: 24px;
+        width: 95%;
+        text-align: center;
+    }
+    .text-header{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        padding-left: 5%;
+    }
+    .hr-header{
+        width: 100%;
+    }
+    .container{
+        height: 90vh;
+    }
+    .col-pad{
+        padding: 0 15%;
+
+    }
+    .col-width{
+        min-width: 100%;
+        height: 300px;
+    }
+    .img-position{
+        left: 23.1%;
+        top: 7.5%;
+        width: 57.1%;
+        height: 73.34%;
+    }
+    .circle-position{
+        display: none;
+    }
+    .back-circle{
+        top: -50.7%;
+        width: 100%;
+    }
+    .btn-header-text{
+        width: 100%;
+        height: 70px;
+        font-size: 18px;
+    }
+    .header-text-tech{
+        margin-top: 90px;
+        font-size: 24px;
+        width: 240px;
+        text-align: center;
+    }
+    .back-img{
+        height: 141vh;
+        background-position: center center;
+    }
+    .btn-down{
+        left: 44%;
+    }
+    .positing-img{
+        display: none;
+    }
+    .tech{
+        width: 70%;
+    }
+    .program-leng{
+        width: 100%;
+        height: 300px;
+        padding: 17px 16px 18px 17px;
+        margin: 0;
+    }
+    .python{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+    .set{
+        width: 37%;
+        font-size: 14px;
+        padding: 10px 7px;
+    }
+    .data-base{
+        padding: 11px;
+        width: 59%;
+        font-size: 14px;
+    }
+    .Django-and-flask{
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    .testing{
+        width: 100%;
+        font-size: 14px;
+        padding: 12px 26px 10px 27px;
+    }
+    .docker{
+        width: 46%;
+        font-size: 14px;
+        padding: 11px 9.5px 10px 9.5px;
+    }
+    .git{
+        width: 50%;
+        font-size: 14px;
+        padding: 11px 9.5px 10px 9.5px;
+    }
+    .back-end-dev{
+        display: none;
+    }
+    .learning-ytyt{
+        width: 75%;
+        font-size: 24px;
+        text-align: center;
+    }
+    .practik{
+        margin: 0;
+        justify-content: left;
+        gap: 10px;
+    }
+    .card{
+        width: 45%;
+        height: 175px;
+    }
+    .card-img-top{
+        margin: 10% 35% 0;
+        width: 40px;
+        height: 40px;
+    }
+    .card-body{
+        padding-top: 10px;
+    }
+    .card-title, .card-title-1{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0 0 5%;
+        margin: 0 8%;
+        width: 75%;
+        text-align: center;
+    }
+    .card-text, .card-text-1, .card-text-2, .card-text-3, .card-text-4{
+        font-size: 9px;
+        padding: 0;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .learning-ytyt-header-text{
+        font-size: 24px;
+        width: 50%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .learning-ytyt-text{
+        font-size: 12px;
+        width: 68%;
+    }
+    .macbook{
+        width: 95%;
+    }
+    .macbook-blur{
+        width: 100%;
+        top: 50%;
+    }
+    .watching-video-position{
+        width: 15%;
+        top: 67%;
+    }
+    .watching-video-text{
+        font-size: 10px;
+        top: 81%;
+    }
+    .plan-obucheniya{
+        flex-direction: column;
+        width: 99%;
+        margin: 5% 2%;
+    }
+    .vr-header, .vr{
+        display: none;
+        height: 0;
+    }
+    .hr-obucheniya{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .title-info, .title-info-1, .title-info-2{
+        font-size: 17px;
+        width: 90%;
+    }
+    .text-info-obucheniya,.text-info-obucheniya-2,.text-info-obucheniya-3{
+        font-size: 12px;
+    }
+    .text-info-obucheniya-2{
+        width: 90%;
+    }
+    .text-info-obucheniya-3{
+        width: 95%;
+    }
+    .start-learn{
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-header-text-2{
+        width: 47%;
+    }
+    .help{
+        border-radius: 30px;
+        width: 100%;
+        padding: 5% 10px;
+    }
+    .help-body{
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .help-text{
+        width: 98%;
+        padding: 38px 20px 19px;
+    }
+    .help-text-title{
+        font-size: 20px;
+    }
+    .help-text-body-1,.help-text-body-2,.help-text-body-3{
+        font-size: 12px;
+        width: 70%;
+    }
+    .help-text-body-2{
+        width: 75%;
+    }
+    .cost-educ{
+        font-size: 22px;
+    }
+    .stoimost{
+        flex-direction: column;
+    }
+    .stoimost-text,.stoimost-text-2{
+        font-size: 12px;
+        text-align: center;
+    }
+    .stoimost-text{
+        width: 250px;
+    }
+    .stoimost-text-2{
+        width: 170px;
+    }
+    .table-sum{
+        width: 100%;
+    }
+    .push{
+        margin-left: 13%;
+    }
+    .notification{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 10px;
+        gap: 10px;
+    }
+    .img-notific{
+        padding: 42px 112px 21px;
+    }
+    .text-notification{
+        width: 80%;
+    }
+    .text-notific{
+        font-size: 12px;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+    }
+    .btn-notific{
+        width: 70.5%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 55px;
+    }
+    .btn-notification{
+        width: 100%;
+    }
+    .social-media{
+        margin-bottom: 40px;
+    }
+    .text-align{
+        text-align: center;
+        margin-right: 20%;
+    }
+    .hr-footer{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footer-text{
+        font-size: 13px;
+    }
+    .text-footer{
+        font-size: 12px;
+        min-width: 100%;
+    }
 }
