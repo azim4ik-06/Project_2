@@ -6,7 +6,7 @@ body{
 }
 .container{
     padding: 15px 10%;
-    height: 85vh;
+    height: 66vh;
     max-width: 100%;
     z-index: 0;
 }
@@ -57,14 +57,14 @@ body{
     color: #FFFFFF;
 }
 .img-position{
-    top: 13.2%;
-    right: 8.8%;
-    width: 28%;
+    top: 3.5%;
+    right: -7.6%;
+    width: 61%;
 }
 .circle-position{
-    width: 85%;
-    top: 0;
-    right: 0;
+    max-width: 250%;
+    top: -15%;
+    right: -27.5%;
     z-index: -1;
 }
 .btn-down{
@@ -456,7 +456,6 @@ hr{
     margin: 1% 18%;
 }
 .footer-link{
-    
     color: #8E8E8E;
 }
 .footer-link:hover{
@@ -466,6 +465,7 @@ hr{
 @media (max-width: 550px){
     .container{
         padding: 7px 15px;
+        height: 109.3vh !important;
     }
     .navbar{
         max-width: 100%;
@@ -495,7 +495,6 @@ hr{
     }
     .col-pad{
         padding: 0 15%;
-
     }
     .col-width{
         min-width: 100%;
@@ -526,8 +525,10 @@ hr{
         text-align: center;
     }
     .back-img{
-        height: 141vh;
+        height: 165vh;
         background-position: center center;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     .btn-down{
         left: 44%;
@@ -536,7 +537,8 @@ hr{
         display: none;
     }
     .tech{
-        width: 70%;
+        width: 95%;
+        border-radius: 30px;
     }
     .program-leng{
         width: 100%;
@@ -560,6 +562,7 @@ hr{
         font-size: 14px;
     }
     .Django-and-flask{
+        width: 100%;
         font-size: 14px;
         padding: 12px 20px;
     }
@@ -582,23 +585,46 @@ hr{
         display: none;
     }
     .learning-ytyt{
-        width: 75%;
+        width: 85%;
         font-size: 24px;
         text-align: center;
     }
     .practik{
         margin: 0;
+        padding-left: 10px;
         justify-content: left;
         gap: 10px;
     }
     .card{
         width: 45%;
         height: 175px;
+        border-radius: 20px;
+    }
+    .card:last-child{
+        display: flex;
+        flex-direction: row;
+        width: 93%;
+        height: 85px;
+    }
+    .card-body-1{
+        padding: 19px 47px 19px 0 !important;
+    }
+    .card-title-2{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .card-text-4{
+        font-size: 9px;
+        width: 90%;
+        text-align: start;
     }
     .card-img-top{
         margin: 10% 35% 0;
         width: 40px;
         height: 40px;
+    }   
+    .card-img-top-2{
+        margin: 25px 0 25px 47px !important;
     }
     .card-body{
         padding-top: 10px;
@@ -611,21 +637,20 @@ hr{
         width: 75%;
         text-align: center;
     }
-    .card-text, .card-text-1, .card-text-2, .card-text-3, .card-text-4{
+    .card-text, .card-text-1, .card-text-2, .card-text-3{
         font-size: 9px;
         padding: 0;
-        width: 80%;
-        margin: 0 10%;
+        width: 100%;
     }
     .learning-ytyt-header-text{
         font-size: 24px;
-        width: 50%;
+        width: 75%;
         text-align: center;
         margin-top: 60px;
     }
     .learning-ytyt-text{
         font-size: 12px;
-        width: 68%;
+        width: 81%;
     }
     .macbook{
         width: 95%;
@@ -642,10 +667,13 @@ hr{
         font-size: 10px;
         top: 81%;
     }
+    .row-width{
+        max-width: 100%;
+    }
     .plan-obucheniya{
         flex-direction: column;
-        width: 99%;
-        margin: 5% 2%;
+        width: 94%;
+        margin: 5% 3%;
     }
     .vr-header, .vr{
         display: none;
@@ -657,24 +685,35 @@ hr{
     }
     .title-info, .title-info-1, .title-info-2{
         font-size: 17px;
-        width: 90%;
+        width: 70%;
     }
     .text-info-obucheniya,.text-info-obucheniya-2,.text-info-obucheniya-3{
         font-size: 12px;
     }
     .text-info-obucheniya-2{
-        width: 90%;
+        width: 75%;
     }
     .text-info-obucheniya-3{
-        width: 95%;
+        width: 75%;
     }
     .start-learn{
-        margin: 0;
+        margin: 0 5%;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
+        border-radius: 30px;
+        width: 90%;
+        height: 150px;
+        padding: 11px 25px 4px;
+        gap: 0;
     }
     .btn-header-text-2{
-        width: 47%;
+        width: 90%;
+        margin: 0;
+    }
+    .text-learn{
+        text-align: center;
+        padding: 10px 0 4px;
+        margin: 0;
     }
     .help{
         border-radius: 30px;
@@ -685,7 +724,15 @@ hr{
         flex-wrap: wrap;
         gap: 12px;
     }
+    .img-help{
+        width: 99%;
+        border-radius: 30px;
+    }
+    .img{
+        width: 100%;
+    }
     .help-text{
+        border-radius: 30px;
         width: 98%;
         padding: 38px 20px 19px;
     }
@@ -704,6 +751,8 @@ hr{
     }
     .stoimost{
         flex-direction: column;
+        padding: 0;
+        min-width: 60%;
     }
     .stoimost-text,.stoimost-text-2{
         font-size: 12px;
@@ -715,11 +764,33 @@ hr{
     .stoimost-text-2{
         width: 170px;
     }
+    .const-education{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .phone{
+        margin-right: 80%;
+    }
     .table-sum{
+        margin-left: 5%;
+        padding-right: 0;
         width: 100%;
+        overflow-y: hidden;
+        padding-left: 20px;
+    }
+    .tfoot{
+        padding-bottom: 15px !important;
+    }
+    ::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    .thead{
+        min-width: 320px !important;
     }
     .push{
         margin-left: 13%;
+        width: 75%;
     }
     .notification{
         flex-direction: column;
@@ -731,7 +802,7 @@ hr{
         padding: 42px 112px 21px;
     }
     .text-notification{
-        width: 80%;
+        width: 90%;
     }
     .text-notific{
         font-size: 12px;
@@ -747,6 +818,7 @@ hr{
         padding-bottom: 55px;
     }
     .btn-notification{
+        font-size: 15px;
         width: 100%;
     }
     .social-media{
