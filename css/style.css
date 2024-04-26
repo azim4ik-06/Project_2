@@ -39,15 +39,20 @@ body{
     background-color: #F15525;
     color: #FFFFFF;
 }
-
 .header-text{
     font-size: 46px;
     font-weight: 500;
     margin-top: 50px;
     width: 76%;
 }
-
+.hr-header{
+    width: 43%;
+}
+.text-header{
+    width: 43%;
+}
 .btn-header-text{
+    width: 38%;
     padding: 15px;
     background-color: #F15525;
     color: #FFFFFF;
@@ -442,15 +447,17 @@ ul{
 li{
     padding: 10px 0;
 }
-a{
+.a{
     text-decoration: none;
     color: rgb(34, 37, 59);
 }
-a:hover{
+.a:hover{
     color: #F15525;
 }
-hr{
-    width: 60%;
+
+.hr-footer{
+    width: 65%;
+    margin-left: 18%;
 }
 .foot-link{
     margin: 1% 18%;
@@ -462,10 +469,10 @@ hr{
     color: #F15525;
 }
 
-@media (max-width: 550px){
+@media (max-width: 430px){
     .container{
         padding: 7px 15px;
-        height: 109.3vh !important;
+        height: 80.5vh !important;
     }
     .navbar{
         max-width: 100%;
@@ -525,7 +532,7 @@ hr{
         text-align: center;
     }
     .back-img{
-        height: 165vh;
+        height: 136vh;
         background-position: center center;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -838,5 +845,32 @@ hr{
     .text-footer{
         font-size: 12px;
         min-width: 100%;
+    }
+}
+@media (width <= 414px){
+    .container{
+        height: 86.5vh !important;
+    }
+}
+@media (width <= 390px){
+    .container{
+        height: 93.6vh !important;
+    }
+    .back-img{
+        height: 137vh;
+    }
+}
+@media (max-width: 380px){
+    .container{
+        height: 127vh !important;
+    }
+    .back-img{
+        height: 183vh;
+    }
+    .social-media{
+        width: 220px !important;
+    }
+    .text-align{
+        
     }
 }
