@@ -892,7 +892,7 @@ li{
         height: 134vh;
     }
 }
-@media (width <= 400px){
+@media (width <= 412px){
     .container{
         height: 97vh !important;
     }
