@@ -886,10 +886,13 @@ li{
 }
 @media (width <= 414px){
     .container{
-        height: 89.6vh !important;
+        height: 94.6vh !important;
     }
     .back-img{
-        height: 134vh;
+        height: 147vh;
+    }
+    .back-circle{
+        top: -49.6%;
     }
 }
 @media (width <= 412px){
@@ -905,10 +908,10 @@ li{
 }
 @media (width <= 390px){
     .container{
-        height: 93.6vh !important;
+        height: 101.4vh !important;
     }
     .back-img{
-        height: 145vh;
+        height: 157vh;
     }
     .back-circle{
         top: -46.9%;
@@ -916,10 +919,10 @@ li{
 }
 @media (max-width: 380px){
     .container{
-        height: 117vh !important;
+        height: 104vh !important;
     }
     .back-img{
-        height: 183vh;
+        height: 163vh;
     }
     .back-circle{
         top: -45.2%;
@@ -930,9 +933,12 @@ li{
 }
 @media (max-width: 360px){
     .container{
-        height: 111vh !important;
+        height: 112.5vh !important;
     }
     .back-img{
-        height: 165vh;
+        height: 170vh;
+    }
+    .back-circle{
+        top: -44%;
     }
 }
