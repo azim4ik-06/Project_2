@@ -847,7 +847,10 @@ li{
 }
 @media (width <= 550px){
     .container{
-        height: 83vh !important;
+        height: 109.3vh !important;
+    }
+    .back-img{
+        height: 165vh;
     }
     .back-circle{
         top: -66.3%;
