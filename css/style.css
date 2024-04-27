@@ -472,7 +472,7 @@ li{
 @media (max-width: 550px){
     .container{
         padding: 7px 15px;
-        height: 87.3vh !important;
+        height: 113.3vh !important;
     }
     .navbar{
         max-width: 100%;
@@ -531,7 +531,7 @@ li{
         text-align: center;
     }
     .back-img{
-        height: 132vh;
+        height: 170vh;
         background-position: center center;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
