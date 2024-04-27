@@ -892,6 +892,17 @@ li{
         height: 134vh;
     }
 }
+@media (width <= 400px){
+    .container{
+        height: 97vh !important;
+    }
+    .back-img{
+        height: 148vh;
+    }
+    .back-circle{
+        top: -48.5%;
+    }
+}
 @media (width <= 390px){
     .container{
         height: 93.6vh !important;
