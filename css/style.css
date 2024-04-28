@@ -436,6 +436,9 @@ body{
     padding-bottom: 30px;
     line-height: 22px;
 }
+.btn-notification{
+    width: 310px;
+}
 .footer{
     margin: 3% 18% 1%;
 }
@@ -449,12 +452,18 @@ li{
 }
 .a{
     text-decoration: none;
-    color: rgb(34, 37, 59);
+    color: #22253b;
 }
 .a:hover{
     color: #F15525;
 }
-
+.hover-color{
+    background-color: #f9f8fd;
+    color: #22253B;
+}
+.hover-color:hover{
+    color: #F15525;
+}
 .hr-footer{
     width: 65%;
     margin-left: 18%;
