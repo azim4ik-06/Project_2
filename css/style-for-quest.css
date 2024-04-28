@@ -1,0 +1,123 @@
+.quest{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 740px;
+    padding: 55px 117px 40px;
+    z-index: 6000000000000 !important;
+    margin: 215px 330px;
+}
+.btn-x-quest{
+    border: 50%;
+}
+.text-header-quest{
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+}
+.text-quest{
+    font-size: 15px;
+    width: 515px;
+    text-align: center;
+}
+.btn-quest{
+    border-radius: 82px;
+    background: rgb(241, 85, 37);
+    color: #fff;
+    padding: 25px 33px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.overlay-quest{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500000000000 !important;
+    min-width: 100%;
+    height: 911%;
+    background: rgba(25, 26, 38, 0.9);
+}
+.quiz-container{
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    width: 740px;
+    padding: 35px 28px 50px 40px;
+    margin: 215px 330px;
+    z-index: 7000000000000000 !important;
+}
+.quiz-header-text{
+    border-radius: 49px;
+    background: rgb(234, 234, 234);
+    width: 140px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgb(34, 37, 59);
+}
+.quiz-text{
+    width: 640px;
+    font-size: 15px;
+}
+.flex-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-quiz{
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    border-radius: 82px;
+    background: rgb(241, 85, 37);
+}
+@media (max-width: 575px){
+    .quest{
+        width: 300px;
+        margin: 25%;
+    }
+    .overlay-quest{
+        height: 880%;
+    }
+    .text-header-quest{
+        width: 210px;
+        font-size: 16px;
+    }
+    .text-quest{
+        width: 280px;
+        font-size: 12px;
+    }
+    .btn-quest{
+        width: 190px;
+       padding: 19px 40px; 
+       font-size: 14px;
+    }
+}
+@media (max-width: 500px){
+    .quest{
+        margin: 17%;
+    }
+}
+@media (width <= 450px){
+    .quest{
+        margin: 25% 13%;
+    }
+}
+@media (width <= 414px){
+    .quest{
+        margin: 25% 10%;
+    }
+}
+@media (width <= 390px){
+    .quest{
+        margin: 25% 8%;
+    }
+}
+@media (width <= 380px){
+    .quest{
+        margin: 25% 6%;
+    }
+}
+@media (width <= 360px){
+    .quest{
+        margin: 25% 4%;
+    }
+}

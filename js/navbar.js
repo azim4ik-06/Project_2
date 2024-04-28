@@ -4,7 +4,7 @@ const overlay = document.querySelector('.overlay');
 const closeNavbar = document.querySelector('.btn-X');
 const btnDown = document.querySelector('.btn-down');
 const backImg = document.querySelector('.back-img');
-const learning = document.querySelector('.learning')
+const learning = document.querySelector('.learning');
 
 navbarToggler.addEventListener('click', navbarShow)
 function navbarShow() {

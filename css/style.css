@@ -258,6 +258,7 @@ body{
 .back-circle{
     width: 100%;
     top: -73.5%;
+    z-index: -1;
 }
 .learning-ytyt-header-text{
     margin-top: 2.6%;
@@ -477,7 +478,6 @@ li{
 .footer-link:hover{
     color: #F15525;
 }
-
 @media (max-width: 575px){
     .container{
         padding: 7px 15px;

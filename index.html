@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-for-navbar-toggle.css">
+    <link rel="stylesheet" href="css/style-for-quest.css">
     <title>Document</title>
 </head>
 <body>
@@ -53,6 +54,37 @@
           <button class="btn btn-navbar-toggler rounded-5 d-flex justify-content-center align-items-center" type="button"><img src="img/arrow_right-2.svg" class="me-1" alt="">Войти</button>
         </div>
       </div>
+      <div class="overlay-quest d-none"></div>
+      <div class="quest d-flex flex-column justify-content-center align-items-center position-fixed d-none">
+        <button class="btn btn-x-quest position-absolute top-0 end-0 me-3 mt-3" type="button"><img src="img/x-lg.svg" alt=""></button>
+        <h1 class="text-header-quest">Перед тем, как приступить к обучению, необходимо пройти небольшой тест</h1>
+        <p class="text-quest">Тест состоит из 4 заданий на логическое мышление и прочие навыки, необходимые программисту. Задания не самые простые. Но ни в коем случае не выбирайте ответы наугад. Если вы не можете дать правильный ответ – выбирайте пункт «Не знаю».</p>
+        <button class="btn btn-quest" type="button">Начать тест <img src="img/arrow-up-right.svg" alt=""></button>
+      </div>
+      <div class="quiz-container position-fixed d-none" id="quiz">
+        <button class="btn position-absolute btn-x-quiz top-0 end-0 me-3 mt-3" type="button"><img src="img/x-lg.svg" alt=""></button>
+        <div class="quiz-header">
+          <h1 class="quiz-header-text">ЗАДАНИЕ №1</h1>
+          <p class="quiz-text" id="question">Иван Иванович купил в магазине у дома несколько пачек макарон по 40 рублей, несколько пачек печенья по 32 рубля и 2 пакета сока. Продавщица сказала, что с него 525 рублей (скидка не предусмотрена). Иван Иванович заявил, что его пытаются обсчитать. Действительно ли продавщица ошиблась в подсчетах?</p>
+        </div>
+        <div class="flex-display">
+          <ul>
+            <li>
+              <input class="answer" name="answer" type="radio" id="a">
+              <label for="a" id="optionA">Option A</label>
+            </li>
+            <li>
+              <input class="answer" name="answer" type="radio" id="b">
+              <label for="b" id="optionB">Option B</label>
+            </li>
+            <li>              
+              <input class="answer" name="answer" type="radio" id="c">
+              <label for="c" id="optionC">Option C</label>
+            </li>
+          </ul>
+          <button class="btn btn-quiz" id="submit">Ответить <img src="img/arrow-right.svg" alt=""></button>
+        </div>
+      </div>
       <div class="row">
         <div class="col col-lg-7 col-md-12 col-sm-12 col-pad">
             <h1 class="header-text">
@@ -64,7 +96,7 @@
         
             <p class="text-header">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
         
-            <button class="btn btn-header-text rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
+            <button class="btn btn-header-text btn-header rounded-5 d-flex justify-content-center align-items-center" type="button">Пройти тестирование <img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
         </div>
         <div class="col col-lg-5 col-md-12 col-sm-12 col-width position-relative">
           <img src="img/Layer 2.png" class="mt-5 position-absolute img-position" alt="">
@@ -99,7 +131,6 @@
           </div>
         </div>
         <h1 class="mt-5 learning-ytyt justify-content-center">Обучение в YtYt – это удобно и результативно</h1>
-        <div class="info">
           <div class="practik">
             <div class="card border-0">
               <img src="img/gobbler 1.svg" class="card-img-top" alt="...">
@@ -156,8 +187,7 @@
               </div>
             </div>
           </div>
-        </div>
-      <img src="img/back-circle.svg" class="position-absolute z-n1 back-circle" alt="">
+      <img src="img/back-circle.svg" class="position-absolute back-circle" alt="">
     </div>
     <div class="learning d-flex flex-column justify-content-center align-items-center position-relative z-1">
       <h1 class="learning-ytyt-header-text">Как происходит обучение на YtYt?</h1>
@@ -460,4 +490,5 @@
     </div>
 </body>
 <script src="js/navbar.js"></script>
+<script src="js/quest.js"></script>
 </html>
