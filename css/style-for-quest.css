@@ -6,6 +6,35 @@
     z-index: 6000000000000 !important;
     margin: 215px 330px;
 }
+    input[type="radio"] {
+        display: none;
+      }
+      
+      label {
+        display: inline-block;
+        padding-left: 20px;
+        position: relative;
+        cursor: pointer;
+      }
+      
+      label:before {
+        content: "";
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background-color: #eaeaea;
+        border: 2px solid #eaeaea;
+        border-radius: 4px;
+        position: absolute;
+        left: 0;
+        top: -1px;
+      }
+      
+      input[type="radio"]:checked + label:before {
+        background: #f15525;
+        border-width: 4px;
+        border-radius: 8px;
+      }
 .btn-x-quest{
     border: 50%;
 }
@@ -40,6 +69,7 @@
     border-radius: 30px;
     background: rgb(255, 255, 255);
     width: 740px;
+    height: 350px;
     padding: 35px 28px 50px 40px;
     margin: 215px 330px;
     z-index: 7000000000000000 !important;
@@ -69,6 +99,34 @@
     border-radius: 82px;
     background: rgb(241, 85, 37);
 }
+.correct-quiz{
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    width: 740px;
+    padding: 35px 28px 50px 40px;
+    z-index: 7000000000000000 !important;
+}
+.score{
+    border-radius: 39px;
+    width: 150px;
+    height: 80px;
+    background: rgb(234, 234, 234);
+}
+.score-header{
+    font-size: 14px;
+}
+.score-text{
+    margin-top: 17px;
+    width: 560px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn-quiz-score{
+    border-radius: 82px;
+    background: rgb(241, 85, 37);
+    color: #fff;
+    margin-top: 25px;
+}
 @media (max-width: 575px){
     .quest{
         width: 300px;
@@ -90,6 +148,50 @@
        padding: 19px 40px; 
        font-size: 14px;
     }
+    .correct-quiz{
+        height: 470px;
+        width: 90%;
+    }
+    .score-text{
+        font-size: 16px;
+        width: 230px;
+    }
+    .quiz-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 470px;
+        width: 90%;
+        margin: 20% 1%;
+    }
+    .quiz-header-text{
+        font-size: 14px;
+        margin: 36px auto 18px;
+    }
+    .quiz-text{
+        font-size: 12px;
+        width: 260px;
+        text-align: center;
+    }
+    .flex-display{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .quiz-ul{
+        padding: 0;
+    }
+    .btn-quiz{
+        align-self: center;
+        margin-bottom: 34px;
+    }
+    .d-tel-none{
+        display: none;
+    }
+    .label{
+        padding-left: 32px;
+    }
+
 }
 @media (max-width: 500px){
     .quest{

@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Чему вы научитесь</a>
+                    <a class="nav-link" href="#program-learning">Чему вы научитесь</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Процесс обучения</a>
+                    <a class="nav-link" href="#plan-obucheniya">Процесс обучения</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Стоимость</a>
+                    <a class="nav-link" href="#cost-educ">Стоимость</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#">Контакты</a>
+                    <a class="nav-link " href="#footer">Контакты</a>
                   </li>
                   <li class="nav-item m-left">
                     <a class="nav-link " href="#">Регистрация</a>
@@ -62,24 +62,24 @@
         <button class="btn btn-quest" type="button">Начать тест <img src="img/arrow-up-right.svg" alt=""></button>
       </div>
       <div class="quiz-container position-fixed d-none" id="quiz">
-        <button class="btn position-absolute btn-x-quiz top-0 end-0 me-3 mt-3" type="button"><img src="img/x-lg.svg" alt=""></button>
+        <button class="btn position-absolute btn-x-quiz top-0 end-0 mt-1 me-1" type="button"><img src="img/x-lg.svg" alt=""></button>
         <div class="quiz-header">
-          <h1 class="quiz-header-text">ЗАДАНИЕ №1</h1>
+          <h1 class="quiz-header-text" id="num-quiz">ЗАДАНИЕ №1</h1>
           <p class="quiz-text" id="question">Иван Иванович купил в магазине у дома несколько пачек макарон по 40 рублей, несколько пачек печенья по 32 рубля и 2 пакета сока. Продавщица сказала, что с него 525 рублей (скидка не предусмотрена). Иван Иванович заявил, что его пытаются обсчитать. Действительно ли продавщица ошиблась в подсчетах?</p>
         </div>
         <div class="flex-display">
-          <ul>
+          <ul class="quiz-ul">
             <li>
-              <input class="answer" name="answer" type="radio" id="a">
-              <label for="a" id="optionA">Option A</label>
+              <input class="answer" class="input" name="answer" type="radio" id="a">
+              <label for="a" class="label" id="optionA">Option A</label>
             </li>
             <li>
-              <input class="answer" name="answer" type="radio" id="b">
-              <label for="b" id="optionB">Option B</label>
+              <input class="answer" class="input" name="answer" type="radio" id="b">
+              <label for="b" class="label" id="optionB">Option B</label>
             </li>
             <li>              
-              <input class="answer" name="answer" type="radio" id="c">
-              <label for="c" id="optionC">Option C</label>
+              <input class="answer" class="input" name="answer" type="radio" id="c">
+              <label for="c" class="label" id="optionC">Option C</label>
             </li>
           </ul>
           <button class="btn btn-quiz" id="submit">Ответить <img src="img/arrow-right.svg" alt=""></button>
@@ -111,7 +111,7 @@
           <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
         </svg>
       </button></a>
-      <h1 class="header-text-tech">Какие технологии вы изучите:</h1>
+      <h1 class="header-text-tech" id="program-learning">Какие технологии вы изучите:</h1>
         <div class="tech">
           <div class="d-flex">
   
@@ -190,7 +190,7 @@
       <img src="img/back-circle.svg" class="position-absolute back-circle" alt="">
     </div>
     <div class="learning d-flex flex-column justify-content-center align-items-center position-relative z-1">
-      <h1 class="learning-ytyt-header-text">Как происходит обучение на YtYt?</h1>
+      <h1 class="learning-ytyt-header-text" id="plan-obucheniya">Как происходит обучение на YtYt?</h1>
       <p class="learning-ytyt-text d-none d-lg-block">
         Обучение должно быть комфортным. Поэтому мы разработали собственную 
         платформу для обучения программированию. На ней вы можете не только изучать 
@@ -303,7 +303,7 @@
       </div>
     </div>
     <div class="d-flex const-education flex-column justify-content-center align-items-center mt-5" id="arrow-down">
-      <h1 class="cost-educ">Стоимость обучения</h1>
+      <h1 class="cost-educ" id="cost-educ">Стоимость обучения</h1>
       <div class="row row-width mt-4">
         <div class="col d-flex stoimost justify-content-center align-items-center gap-4">
           <img src="img/svg-gobbler 2.svg" alt="">
@@ -404,7 +404,7 @@
         <button class="btn btn-header-text btn-notification rounded-5 d-flex justify-content-center align-items-center" type="button">Начать обучение<img src="img/arrow-up-right.svg" class="ms-2" alt=""></button>
       </div>
     </div>
-    <div class="row footer">
+    <div class="row footer" id="footer">
       <div class="col col-lg-7 col-md-12 col-sm-12">
         <div class="logo">
           <p class="d-flex align-items-center text-secondary w-25"><img src="img/Logo.svg" class="me-3" alt="">Школа программирования</p>
